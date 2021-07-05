@@ -79,5 +79,11 @@
 - Autoencoder with TensorFlow
 
 
+<br>
+<h5 align="center">
+< Happy Learning />
+<br>
+<a href="https://kushi944100.github.io/portfolio/index.html">Kushwanth Boina</a> | © 2021
+</h5>
 
 
