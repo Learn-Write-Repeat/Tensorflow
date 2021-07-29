@@ -109,6 +109,7 @@ This manages the below aspects of servables:
 <div align="center">
   <img src="https://static.javatpoint.com/tutorial/tensorflow/images/tensorflow-architecture.png">
 </div>
+<br><br>
 
 # Neural Networks Using TensorFlow
   
@@ -153,7 +154,9 @@ We will train cnn network on dataset called [MNIST](http://yann.lecun.com/exdb/m
 
 ---
 
-## Convolution Neural Network
+<br><br>
+# Convolution Neural Network
+
 ### Convolution layer
 You will usually hear about 2D Convolution while dealing with convolutional neural networks for images. It is a simple mathematical operation in which we slide a matrix or kernel of weights over 2D data and perform element-wise multiplication with the data that falls under the kernel. Finally, we sum up the multiplication result to produce one output of that operation.
 
