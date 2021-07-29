@@ -137,10 +137,10 @@ The trained model can be saved using the save() method. Keras allows the model w
   
 Keras and TensorFlow provides an approachable, highly-productive interface for solving machine learning problems, with a focus on modern deep learning. Thus, TensorFlow is the go-to platform for researchers and engineers working with Neural Networks. 
 
+<br><br>
 
 # Convolutional Neural Networks With Tensorflow
 
----
 ### Learning Objectives
 1.   create CNN network from scratch.
 2.   understanding what is convolution.
@@ -152,9 +152,6 @@ We will train cnn network on dataset called [MNIST](http://yann.lecun.com/exdb/m
 
 ![dataset image](https://miro.medium.com/max/700/1*LyRlX__08q40UJohhJG9Ow.png)
 
----
-
-<br><br>
 # Convolution Neural Network
 
 ### Convolution layer
@@ -168,8 +165,6 @@ Input shape : (1, 9, 9) — Output Shape : (1, 7, 7) — K : (3, 3) — P : (0, 
 Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map.
 ![dataset image](https://media.geeksforgeeks.org/wp-content/uploads/20190721025744/Screenshot-2019-07-21-at-2.57.13-AM.png)
 
-
----
 
 ### model summary
 ![dataset image](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1723677%2F664483930a8dae8d6bdde8521d743b22%2Fimg2.png?generation=1602506057159013&alt=media)
@@ -187,8 +182,6 @@ Flatten converts the tensors into a 1D vector.
 The Dense layers are an artificial neural network (ANN). The last layer returns the probability that an image is in each class (one for each digit).
 
 As this model aims to categorize the images, we will use a categorical_crossentropy loss function.
-
----
 
 ### conclusion
 Neural Network with convolutional layer has a great impact on accuracy. our model got 99% accuracy with just two convolution layer. Convolutional neural networks (CNNs) have accomplished astonishing achievements across a variety of domains, including medical research, and an increasing interest has emerged in radiology.
