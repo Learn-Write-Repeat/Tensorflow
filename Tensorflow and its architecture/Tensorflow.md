@@ -138,7 +138,7 @@ In order to run any meaningful operation on the graph,you need a Session. It ini
 
 # Neural Networks Using TensorFlow
   
-## Introducton:  
+## Introduction:  
 Neural Networks are a subset of Machine Learning, that uses interconnected layers of nodes, called neurons, to mimmick the working of the biological neurons. The idea of Neural Networks was inspired by the human brain and it forms the basis of Deep Learning. The basic architecture of a Neural Network consists of an input layer, one or more hidden layers, and an output layer.   
   
 ![image.png](https://1.cms.s81c.com/sites/default/files/2021-01-06/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.png)
