@@ -103,3 +103,14 @@ The example of dot product of vectors is mentioned below −
          [ 3 ]         [ -1 ]
 	 
     v1.v2=(v1^T)v2=1×3+2×5−3×1=>10
+    
+    
+   
+<hr>
+
+# Contributors :
+    
+   
+### Shivani Rana | [LinkedIn](https://www.linkedin.com/in/shivani-rana-b833a91a3/) | [Github](https://github.com/shivani6320)
+    
+### Vajrakumar | [LinkedIn](https://www.linkedin.com/in/vajrakumar-m-60b67a158/) | [Github](https://github.com/vajrahsnm)
