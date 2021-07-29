@@ -111,6 +111,31 @@ This manages the below aspects of servables:
 </div>
 <br><br>
 
+# Basics of Tensorflow
+
+## Tensor
+Tensors are multi-dimensional arrays with a uniform type. They are kind of np.arrays but you didn't update the contents if a tensor,only create a new one.
+For example, a 4-D array of floating point numbers representing a mini-batch of images with dimensions[batch,height,width,channel]. 
+
+## Constant 
+It is use to create a contant tensor from tensor-like object. It can be created using tf.constant() function.
+There are 4 paramenters of a TensoFlow constant:
+* value: A constant value (or a list) of output dtype.
+* dtype: A type of data type (int float boolean)
+* shape: Optional dimensions of resulting Tensor.
+* name: Optional name for the Tensor.
+
+## Variables
+It allows to add new trainable parameters to the graph(structure of neural network). It can be created using tf.Variable() function.
+The Variable() constructor requires an initial value for the variable, which can be a Tensor of any type and shape. This initial value defines the type and shape of the variable. After construction, the type and shape of the variable are fixed. It means that shape and type will never change. The value can be changed using one of the assign methods.
+
+## Placeholder
+It allows to feed the data to a TensorFlow model from outside a model. It allows us to create our operation and build our computation graph, without needing the data.
+It can be created using tf.placeholder() function.
+
+## Session 
+In order to run any meaningful operation on the graph,you need a Session. It initiates a TensorFlow Graph object in which tensors are processed through operations.
+
 # Neural Networks Using TensorFlow
   
 ## Introducton:  
