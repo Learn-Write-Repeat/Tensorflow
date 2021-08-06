@@ -278,6 +278,11 @@ We can use the ```.predict()``` method to get survival probabilities from the mo
 <https://www.tensorflow.org/>
 <https://tensorflow.rstudio.com/guide/tensorflow/tensors/>
 
+# Contributor:
+
+Name : Archisman Saha | [LinkedIn](https://www.linkedin.com/in/archisman-saha-596615212/) | [GitHub](https://github.com/archismansaha)
+
+
 
 
 
